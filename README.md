@@ -1,0 +1,72 @@
+!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Test</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+ <style type="text/css">
+  	   body {
+    background: url(earth.jpg) repeat-x 0 100% fixed,
+                linear-gradient(to top, #5080b1, #004e8c) fixed;
+    animation: city 200s linear infinite;
+    -webkit-animation: city 200s linear infinite;
+
+   }
+   @keyframes city {
+    from { background-position: -1000px 100%, 0 0;}
+    to { background-position: 0 100%, 0 0; }
+   }
+   @-webkit-keyframes city {
+    from { background-position: -1000px 100%, 0 0;}
+    to { background-position: 0 100%, 0 0; }
+   }
+   main {
+    width: 100%;
+    min-height: 3000px;
+    display: block;
+    margin: auto;
+    background: rgba(255,255,255,0.6);
+    padding: 20px;
+   }
+  </style>
+</head>
+<body bgcolor ="#E8DAEF">
+  <p class="top1">Ullamco dolore cupidatat in qui laboris dolore deserunt commodo ullamco commodo eu in in dolor exercitation. Ea dolor id consectetur in nulla deserunt excepteur dolor magna ea nisi tempor qui in nostrud eu excepteur. Excepteur ut eu duis adipisicing anim eu est minim deserunt sit enim sint dolore consectetur. Fugiat labore minim esse adipisicing nisi ex proident sunt laboris velit adipisicing in dolor anim magna non occaecat.</p>
+  <table>
+    <tr>
+      <td><p style="color: white">Бакай</p><img class="block_with_image" src="images 1.jpg" alt="Рисунок1"></td>
+      <td><p style="color: white">Мухаммед</p><img class="block_with_image" src="images I.jpg" alt="Рисунок2"></td>
+      <td><p style="color: white">Диёра</p><img class="block_with_image" src="cat (2).jpg" alt="Рисунок3"></td>
+      <td><p style="color: white">Алиаскер</p><img class="block_with_image" src="dog (1).jpg" alt="Рисунок4"></td>
+    </tr>
+  </table>
+  </div>
+
+  <div class="block_with_ol" class="q">
+    <ol>
+      Навыки для программистов:
+      <li>Усидчивость</li>
+      <li>Логика</li>
+      <li>Сообразительность</li>
+      <li>Внимательность</li>
+      <li>Эрудиция</li>
+      
+    </ol>
+  </div>
+  <div class="block_with_ul" class="q">
+    <ul>
+      Мы научились:
+      <li>Создавать сайты</li>
+      <li>Основам HTML</li>
+      <li>Основам CSS</li>
+      <li>Работать на Sublime Text 3</li>
+      <li>Создавать андроид приложения</li>
+    </ul>
+  </div>
+
+  <div class="block_empty" class="q">
+
+  </div>
+
+</body>
+</html>
